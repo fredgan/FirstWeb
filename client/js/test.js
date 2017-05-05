@@ -1,7 +1,8 @@
 // just some test
 
 function main() {
-	// 只是加点东西看看
+	// dev2 modify something
 }
 
+// dev2 add something
 
