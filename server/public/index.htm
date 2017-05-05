@@ -1,0 +1,50 @@
+<html>
+
+
+<head>
+
+<meta charset="UTF-8">
+<title>试试网页怎么开发</title>
+
+</head>
+
+
+<body>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form name="getInput" action="http://127.0.0.1:8081/process_get" method="GET">
+First Name: <input type="text" name="first_name">  <br>
+Last Name: <input type="text" name="last_name">
+<input type="submit" value="Get提交">
+</form>
+
+
+
+<form name="postInput" action="http://127.0.0.1:8081/process_post" method="POST">
+First Name: <input type="text" name="first_name">  <br>
+
+Last Name: <input type="text" name="last_name">
+<input type="submit" value="Post提交">
+</form>
+
+<br><br>
+<h3>文件上传：</h3>
+选择一个文件上传: <br><br>
+<form name="selectInput" action="/file_upload" method="post" enctype="multipart/form-data">
+<input type="file" name="image" size="50" />
+<br><br>
+<input type="submit" value="上传文件" />
+</form>
+
+
+
+
+</body>
+</html>
